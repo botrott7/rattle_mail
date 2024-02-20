@@ -10,6 +10,6 @@ PASSWORD = os.getenv('PASSWORD')
 
 mailer = SMTPClient(LOGIN, PASSWORD)
 
-mailer.send_mail(emails=['padgetalex@yandex.ru'],
+mailer.send_mail(emails=['xxx@yandex.ru', 'xxx@gmail.com'],
                  title='First Test Title',
                  text='This is first SMTP email')
